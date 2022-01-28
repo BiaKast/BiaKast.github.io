@@ -7,44 +7,71 @@
     <title>Portfólio Web Bianca Castro</title>
     <style>
       body {
-        background-color: #b5838d;
-        font-family: Montserrat, sans-serif;
-    
+        background: linear-gradient(45deg, #619b8a, #a1c181, #fdf0d5, #003049, #669bbc);
+        background-size: 300%,300%;
+        animation: colors 15s ease infinite;
+        font-family: Arial, Helvetica, sans-serif, sans-serif;
+        text-align: center;
+      }
+      @keyframes colors {
+          0% {
+              background-position: 0%,50%;
+          }
+          50% {
+              background-position: 100%,50%;
+          }
+          100%{
+              background-position: 0%,50%;
+          }
       }
       h1 {
-        font-family: Clicker Script, sans-serif;
+        font-family: Styles, sans-serif;
+        font-weight: 350;
       }
-      img {
-          width: 175px;
-          height: 175px;
-        border-radius: 55%;
-        
+      img{
+          border-radius: 50%;
+          width: 150px;
+        height: 150px;
+        }
+      h2 {
+        font-weight: 200;
+
+
       }
-      .P1{
-        text-align:end ;
+      .P1 {
+        t
+      }
+      .p2 {
+        line-height: 25px;
+      }
+      .link{
+          padding: 15px;
+          text-decoration: none;
       }
     </style>
   </head>
   <body>
     <h1 id="Nome">Bianca Sousa Castro</h1>
-    <img
-      src="./Imagem-Bianca.jpeg"
-      id="Topo"
-      width="150 px"
-      alt="Foto de Bianca Sousa Castro"
-    />
+      <img
+        src="./Imagem-Bianca.jpeg"
+        id="Topo"
+        width="150 px"
+        alt="Foto Bianca Sousa Castro"
+      />
+    
     <p class="P1">
       Essa sou eu, com a minha planta cujo nome não lembro, pois, ganhei ela no
       natal e esqueci kkk.
     </p>
     <hr />
-    <h3 id="Descrição">Minha descrição</h3>
-    <p>
+    <h2 id="Descrição">Minha descrição</h2>
+    <p class="p2">
       <em
         >Tenho 20 anos, sou <strong>Brasileira</strong> hoje em dia moro em
         <strong>Florianópolis — SC</strong>, morei e cresci em Belém do Pará até
-        meus 18 anos. Em 2020 vim morar com meu namorado em Floripa, atualmente
-        formado na Trybe e programador em uma das empresas parceiras. <br />
+        meus 18 anos. <br />
+        Em 2020 vim morar com meu namorado em Floripa, atualmente formado na
+        Trybe e programador em uma das empresas parceiras. <br />
         Gosto de plantas tenho minha hortinha bem pequena, mas tenho rsrs. Adoro
         jogar para passar meu tempo, sair de vez enquanto e momentos em família.
         Essa sou eu :)</em
@@ -52,7 +79,7 @@
     </p>
     <hr />
     <h3 id="Habilidades">Lista de habilidades</h3>
-    <ul>
+    <ul class="list-style">
       <li><strong>Sou criativa.</strong></li>
       <li>Muito responsável.</li>
       <li>
@@ -60,7 +87,6 @@
           >Adoro cozinhar e inovar tanto na cozinha quanto na vida!</strong
         >
       </li>
-      <link rel="stylesheet" href="" />
       <li>
         <strong>Já dei aulas de reforço para crianças de 5 a 10 anos.</strong>
       </li>
@@ -75,10 +101,10 @@
     <hr />
     <h3>Índice</h3>
     <ol>
-      <li><a href="#Nome">Nome</a></li>
-      <li><a href="#Descrição">Minha descrição</a></li>
-      <li><a href="#Habilidades">Lista de habilidades</a></li>
-      <li><a href="#Redes">Redes Sociais</a></li>
+      <li class="link"><a href="#Nome">Nome</a></li>
+      <li class="link"><a href="#Descrição">Minha descrição</a></li>
+      <li class="link"><a href="#Habilidades">Lista de habilidades</a></li>
+      <li class="link"><a href="#Redes">Redes Sociais</a></li>
     </ol>
   </body>
 </html>
