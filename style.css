@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(45deg, #619b8a, #a1c181, #fdf0d5, #003049, #669bbc);
+    background-size: 300%,300%;
+    animation: colors 15s ease infinite;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    text-align: center;
+  }
+  @keyframes colors {
+      0% {
+          background-position: 0%,50%;
+      }
+      50% {
+          background-position: 100%,50%;
+      }
+      100%{
+          background-position: 0%,50%;
+      }
+  }
+  h1 {
+    font-family: Styles, sans-serif;
+    font-weight: 350;
+  }
+  img{
+      border-radius: 50%;
+      width: 150px;
+    height: 150px;
+    }
+  h2 {
+    font-weight: 200;
+
+
+  }
+  .P1 {
+    t
+  }
+  .p2 {
+    line-height: 25px;
+  }
+  .link{
+      padding: 13px;
+      text-decoration: none;
+      border-width: 5px;
+      border-style:double;
+  }
